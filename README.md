@@ -1,8 +1,8 @@
 <div align="left"><img src="https://komarev.com/ghpvc/?username=CybXII&label=Profile%20views&color=blue&style=plastic" alt="CybXII" /></div>
 <div align="center">
-          <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CybXII&layout=compact"/>
-          <br></br>
           <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=CybXII&theme=github_dark"> 
+          <br></br>
+          <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CybXII&layout=compact"/>
           <br></br>
           <img width="45%" src="https://github-readme-stats.vercel.app/api?username=CybXII&layout=compact&theme=react&hide_border=true"/>
 </div>
