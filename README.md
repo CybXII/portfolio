@@ -1,5 +1,3 @@
- <div align="left"><img src="https://komarev.com/ghpvc/?username=CybXII&label=Profile%20views&color=blue&style=plastic" alt="CybXII" /></div>
-        
 <div align="center">
         <img width="45%" src="https://github-readme-stats.vercel.app/api?username=CybXII&layout=compact&theme=react&hide_border=true"/>
 
@@ -10,6 +8,8 @@
           <br></br>
         
 </div>
+
+<div align="left"><img src="https://komarev.com/ghpvc/?username=CybXII&label=Profile%20views&color=blue&style=plastic" alt="CybXII" /></div>
 
 # Portfolio
 
