@@ -1,0 +1,31 @@
+<div class="skillsSection">
+    <div class="skillContent">
+        <div class="skillImageGroup" data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine">
+        @for (item of skillsData; track skillsData; let i = $index) {
+            <div class="skillGroup">
+                @for (stack of skillsData[i].stack; track stack; let j = $index) {
+                    <div class="skillType">
+                        <img [src]="skillsData[i].stack[j].imgPath" alt="">
+                        <p>{{skillsData[i].stack[j].name}}</p>
+                    </div>
+                }
+            </div>
+        }
+        </div>
+            <div class="skillText" data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine">
+            <div class="skillsHeadline">
+                <h2>{{'skills.title' | translate}}
+                    <div class="line">
+                        <div class="coloredLineRight"></div>
+                    </div>
+                </h2>
+            </div>
+            <p>{{'skills.text' | translate}}</p>
+            <a (click)="navigateAndScroll('contact',100)"><button >{{'skills.button' | translate}}</button></a>
+        </div>
+    </div>
+</div>

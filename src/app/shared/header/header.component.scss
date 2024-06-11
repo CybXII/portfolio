@@ -1,0 +1,29 @@
+.header{
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    color: aliceblue;
+    padding: 8px 100px;
+    border-bottom: 3px solid red;
+    background-color: rgb(32, 0, 0);
+    top: 0;
+}
+
+.headerContent{
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    cursor: default;
+    margin: 0;
+    font-size: 72px;
+}
+

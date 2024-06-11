@@ -1,0 +1,48 @@
+@media (max-width: 750px){
+    .contactMain{
+        .headContact{
+            gap: 25px;
+        }
+        .coloredLine{
+            width: 25px;
+        }
+        h1{
+            font-size: 45px;
+            font-weight: 700;
+            line-height: 54px;
+        }
+        h2 {
+            font-size: 23px;
+            font-weight: 700;
+            line-height: 27.6px;
+            text-align: center;
+        }
+        p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+    .contactContent{
+        flex-direction: column;
+        padding: 0 25px !important;
+        align-items: center;
+    }
+    .sendButton{
+        display: flex;
+        justify-content: center !important;
+    }
+    .scrollUp{
+        margin-top: 48px;
+        justify-content: center !important;
+    }
+    .contactInfos{
+        margin-bottom: 24px;
+        align-items: center;
+        p{  
+            display: flex;
+            text-align: center !important;
+        }
+    }
+}

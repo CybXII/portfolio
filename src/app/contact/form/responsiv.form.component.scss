@@ -1,0 +1,21 @@
+@media (max-width: 750px){
+    .contactContent{
+        flex-direction: column;
+        padding: 0 25px !important;
+    }
+
+    .contactForm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+        .sendButton{
+            display: flex;
+            justify-content: center;
+        }
+        label{
+            width: 100%;
+        }
+    }  
+}

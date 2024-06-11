@@ -1,0 +1,66 @@
+.logo {
+    height: 100px;
+    width: 100px;
+    scale: 0.5;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    position: relative;
+    padding: 10px 30px 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    box-shadow: 15px -20px 0px 8px #570000 inset,
+    -10px 10px 0px 10px #ffffff inset,
+    0px 0px 0px 76px inset #000000,
+    0px 1px 12px 1px rgb(255, 255, 255);
+    z-index: 1;
+}
+
+h1 {
+    margin: 0;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    // text-shadow: #ff00008a 10px 3px 20px;
+    cursor: default;
+}
+
+h2 {
+    text-align: center;
+    font-family: "BlackOpsOne";
+    margin: 0;
+    color: aliceblue;
+    padding: 10px;
+    font-weight: 400;
+    text-decoration: none;
+    text-shadow: rgba(209, 209, 209, 0.5411764706) 1px 0 10px;
+    cursor: default;
+}
+
+p {
+    text-shadow: #d1d1d18a 2px 4px 10px;
+    font-size: small;
+    font-family: 'BlackOpsOne';
+    text-align: center;
+    width: fit-content;
+    color: red;
+    margin: 0;
+    cursor: default;
+}

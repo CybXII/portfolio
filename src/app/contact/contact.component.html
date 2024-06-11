@@ -1,0 +1,28 @@
+<div class="contactMain">
+    <div class="contactContainer">
+        <div class="headContact" data-aos="fade-right" data-aos-delay="300" data-aos-offset="150" data-aos-duration="500">
+            <div class="line">
+                <div class="coloredLineLeft"></div>
+            </div>
+    <h1>{{'contact.title' | translate}}</h1>    
+        </div>
+        <div class="contactContent">
+            <div class="contactInfos" data-aos="fade-up-right" data-aos-delay="300" data-aos-offset="150" data-aos-duration="500">
+                <h2>{{'contact.question1' | translate}}</h2>
+                <p>{{'contact.text' | translate}}</p>
+                <p>
+                    {{'contact.question2' | translate}}
+                    <a href ="mailto:luft.luft86@gmail.com">{{'contact.contactMe' | translate}}</a> 
+                </p>
+            </div>
+            <app-form></app-form>
+        </div>
+        <div class="scroll" >
+            <a (click)="navigateAndScroll('landing',100)" class="scrollUp">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.00002 3.828L2.34302 8.485C1.95255 8.87546 1.31948 8.87546 0.929016 8.485C0.53855 8.09453 0.538551 7.46146 0.929016 7.071L7.29291 0.707106C7.68343 0.316581 8.3166 0.316582 8.70712 0.707106L15.071 7.071C15.4615 7.46147 15.4615 8.09453 15.071 8.485C14.6806 8.87547 14.0475 8.87547 13.657 8.485L9.00002 3.828L9.00002 15C9.00002 15.5523 8.5523 16 8.00002 16C7.44773 16 7.00002 15.5523 7.00002 15L7.00002 3.828Z"/>
+                </svg>
+            </a>
+        </div>    
+    </div>
+</div>

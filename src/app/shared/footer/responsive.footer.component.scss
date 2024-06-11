@@ -1,0 +1,18 @@
+@media (max-width: 750px) {
+    .footer{
+        height: 291px;
+    }
+    .blurEffect{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        align-items: center;
+        position: relative;
+        padding: 0 100px;
+        font-size: larger;
+        gap: 12px;
+        p{
+            text-align: center;
+        }
+    }
+}

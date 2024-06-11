@@ -1,0 +1,40 @@
+.menu{
+    display: flex;
+    text-align: center;
+    gap: 12px;
+    align-items: center;
+    .language{
+        height: 40px;
+        width: 40px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 0;
+        border: #ffffff 2px solid;
+    }
+    a{       
+        display: flex;
+        height: 30px;
+        width: 112px;
+        color: #ffffff;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+        border-radius: 24px;
+        padding: 12px;
+        border: 2px solid transparent;
+        font-family: 'BlackOpsOne';
+        transition: 125ms ease-in-out;
+    }
+    a:hover{
+        color: #ff0000;
+        border: 2px solid #ff0000;
+    }
+}
+
+.burgerMenu{
+    display: none;
+}

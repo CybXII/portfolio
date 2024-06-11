@@ -1,0 +1,57 @@
+@if (sendMail) {
+    <div class="sendMailInfo">
+            <div class="infoBox">
+                <h1>{{'form.sendSucces' | translate}}</h1>
+            </div>
+        </div>
+    }
+<form class="contactForm" (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" data-aos="fade-up-left" data-aos-delay="300" data-aos-offset="300" data-aos-duration="500">
+    <label for="name">
+        <input #name="ngModel" [(ngModel)]="contactData.name" type="text" name="name" id="name" [placeholder]="'form.name' | translate" required >
+        @if (!name.valid && contactForm.submitted) {
+            <span>{{formInfos.requiredInfo}}</span>
+        }@else {
+            <span></span>
+        } 
+    </label>
+    <label for="email">
+        <input #email="ngModel" [(ngModel)]="contactData.email" type="email" name="email" id="email" [placeholder]="'form.email' | translate" pattern="[^@\s]+@[^@\s]+.[^@\s]+" required>
+        @if (!email.valid && contactForm.submitted) {
+            <span>{{formInfos.emailInfo}}</span>
+        }@else {
+            <span></span>
+        } 
+    </label>
+    <label for="message">
+        <textarea #message="ngModel"  [(ngModel)]="contactData.message" name="message" id="message" [placeholder]="'form.message' | translate" required></textarea>
+        @if (!message.valid && contactForm.submitted ) {
+            <span>{{formInfos.messageInfo}}</span>
+        }@else {
+            <span></span>
+        } 
+    </label>
+    <label for="privacy">
+        <div class="privacy">
+            <div class="checkbox"><input  #privacy="ngModel"  [(ngModel)]="contactData.privacy" name="privacy" id="privacy" type="checkbox" required></div>
+            <p>
+                {{'form.text1' | translate}}
+                <a routerLink="/privacy">{{'form.privacy' | translate}}</a>
+                {{'form.text2' | translate}}
+            </p>
+        </div>  
+        @if (!contactData.privacy && !contactForm.valid && contactForm.submitted && !privacy.disabled) {
+            <span>{{formInfos.checkboxInfo}}</span>
+        }@else {
+            <span></span>
+        } 
+    </label>
+    @if (!contactData.privacy && !contactForm.valid && contactForm.submitted && !privacy.disabled){
+        <div class="sendButton">
+            <button type="submit">{{'form.send' | translate}}</button>
+        </div>
+    }@else {
+        <div class="sendButton">
+            <button class="disabled" type="submit" [disabled]="!contactForm.valid">{{'form.send' | translate}}</button>
+        </div>
+    }
+</form>   

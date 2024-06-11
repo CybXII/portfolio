@@ -1,0 +1,69 @@
+{
+    "header": {
+        "languageButton": "DE",
+        "aboutMe": "Über mich",
+        "skills": "Fähigkeiten",
+        "portfolio": "Projekte"
+    },
+    "landingPage": {
+        "me": "Ich bin",
+        "job": "Software Entwickler",
+        "buttonTalk":"Lass uns reden",
+        "scrollDown": "Runter springen"
+    },
+    "aboutMe": {
+        "title": "Über mich",
+        "textMain": "Ich bin Webentwickler with a passion for creating beautiful and functional websites. I have experience in creating websites using HTML, CSS, JavaScript, React, and other technologies. I am always looking for new challenges and opportunities to learn and grow as a developer.",
+        "textKnowledge": "Ein paar dinge über mich(.1.) Donec ut imperdiet diam, et convallis neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+        "textSkills": "Ein paar dinge über mich(.2.) Donec ut imperdiet diam, et convallis neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+    },
+    "skills": {
+        "title": "Skills",
+        "text": "Ein paar dinge über mich(.3.) Donec ut imperdiet diam, et convallis neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+        "button": "Mehr erfahren"
+    },
+    "portfolio": {
+        "title": "Projekte",
+        "text1": "Erkunde hier eine Auswahl meiner Arbeiten - Interagiere mit Projekten",
+        "text2": "um meine Fähigkeiten in Aktion zu sehen.",
+        "button": "Testen"
+    },
+    "contact":{
+        "title": "Kontakt",
+        "question1": "Sie haben ein Problem?",
+        "question2": "Brauchen sie einen Software Entwickler?",
+        "contactMe":"Kontakieren Sie mich",
+        "text": "Kontaktiere mich über dieses Formular, ich bin daran interessiert, von dir zu hören, deine Ideen kennenzulernen und mit meiner Arbeit zu deinen Projekten beizutragen.",
+        "button": "Nachricht senden"
+    },
+    "form":{
+        "name": "Dein Name",
+        "email": "Deine Email",
+        "message": "Deine Nachricht",
+        "send": "Nachricht Senden",
+        "text1":"Ich habe die ",
+        "text2":"und stimme der Verarbeitung meiner Daten gemäß den Angaben zu.",
+        "privacy":"Datenschutzerklärung",
+        "sendSucces":"Deine Nachricht wurde verschickt!"
+    },
+    "join": {
+        "textProjekt": "Ich bin immer auf der Suche nach neuen Herausforderungen und Möglichkeiten, als Entwickler zu lernen und zu wachsen. Wenn du daran interessiert bist, mit mir zusammenzuarbeiten, nimm bitte Kontakt auf."
+    },
+    "pokedex": {
+        "textProjekt": "Eine einfache Pokedex-App, die es dir ermöglicht, nach Pokemon zu suchen und deren Details anzusehen. Dieses Projekt wurde mit der PokeAPI und Vanilla JavaScript erstellt."
+    },
+    "sharkie": {
+        "textProjekt": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Hilf Sharkie, Münzen und Giftflaschen zu finden, um gegen den Killerwal zu kämpfen."
+    },
+    "footer": {
+        "imprint": "Impressum"
+    },
+    "imprint": {
+        "contact": "Kontakt",
+        "wrapper": "Impressum",
+        "headline": "Angaben gemäß § 5 TMG",
+        "phone": "Telefon:",
+        "email": "E-Mail:"
+    }
+
+}

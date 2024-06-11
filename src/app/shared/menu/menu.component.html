@@ -1,0 +1,33 @@
+<div class="menu">
+    <a (click)="navigateAndScroll('about', 50)">{{'header.aboutMe' | translate}}</a>
+    <a (click)="navigateAndScroll('skills', 200)">{{'header.skills' | translate}}</a>
+    <a (click)="navigateAndScroll('portfolio', 200)">{{'header.portfolio' | translate}}</a>
+    @if (activeLanguage === 'de') {
+        <a class="language" style="background-image: url('../../../assets/img/de.png');" (click)="useLanguage('en')"></a>
+    } @else {
+        <a class="language" style="color:black; background-image: url('../../../assets/img/en.jpg');" (click)="useLanguage('de')"></a>
+    }
+</div>
+<div class="burgerMenu" (click)="toggleMenu($event)">
+    <nav role="navigation">
+        <div id="menuToggle">
+
+        <input type="checkbox" />
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <ul id="menu">
+            <a (click)="navigateAndScroll('about', 200)"><li>{{'header.aboutMe' | translate}}</li></a>
+            <a (click)="navigateAndScroll('skills', 200)"><li>{{'header.skills' | translate}}</li></a>
+            <a (click)="navigateAndScroll('portfolio', 200)"><li>{{'header.portfolio' | translate}}</li></a>
+            @if (activeLanguage === 'de') {
+                <a class="language" style="background-image: url('../../../assets/img/de.png');" (click)="useLanguage('en')"></a>
+            } @else {
+                <a class="language" style="background-image: url('../../../assets/img/en.jpg');" (click)="useLanguage('de')"></a>
+            }
+        </ul>
+        </div>
+    </nav>
+</div>

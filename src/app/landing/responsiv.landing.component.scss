@@ -1,0 +1,67 @@
+@media (max-width: 950px){
+    .head{
+        scale: 0.8;
+    }
+    .landingSection{
+        gap: 20vh;
+    }
+}
+
+@media (max-width: 850px){
+    .head{
+        scale: 0.6;
+    }
+    .landingSection{
+        gap: 20vh;
+    }
+}
+
+
+@media (max-width: 750px){
+
+    .scrollDownSection{
+        width: 30px;
+    }
+    .scrollDown{
+        scale: 0.8;
+        transform: translate(16px,0);
+    }
+    .coloredLine{
+        width: 50px !important;
+    }
+    .headNavigation{
+        .scrollDownSection{
+            width: 20px;
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .rotationLine{
+        h1{
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 38.4px;
+            text-align: left;
+        }
+    }
+    .headLine{
+        .name{
+            font-size: 45px;
+            font-weight: 700;
+            line-height: 54px;        
+            text-align: left;
+        } 
+        .job{
+            font-size: 29px;
+            font-weight: 400;
+            line-height: 34.8px;
+            text-align: left;
+        }   
+    }
+    .headContent{
+    .rotatet {
+            margin: 0px 0px 26px -16px;
+        }
+    }
+}

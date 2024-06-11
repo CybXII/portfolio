@@ -1,0 +1,20 @@
+<div class="mainPrivacy">
+    <app-header class="headerSection"></app-header>
+    @if (translateService.language =='de') {
+        <div class="privacy">
+            <div class="links">
+                <div class="legal">
+                    <app-german></app-german>
+                </div>            
+            </div>
+        </div>    
+    } @else {
+        <div class="privacy">
+            <div class="links">
+                <div class="legal">
+                    <app-english></app-english>
+                </div>            
+            </div>
+        </div>    
+    }
+</div>

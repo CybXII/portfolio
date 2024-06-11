@@ -1,0 +1,10 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .headerSection{
+        position: relative;
+        height: 120px;
+        width: 100%;
+    }
+}

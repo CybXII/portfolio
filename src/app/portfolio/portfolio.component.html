@@ -1,0 +1,45 @@
+<div class="portfolioMain">
+    <div class="portfolioContent">
+        <div  data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine">
+            <div class="headPortfolio">
+                <div class="line">
+                    <div class="coloredLineLeft"></div>
+                </div>
+            <h1>{{'portfolio.title' | translate}}</h1>
+            </div>
+            <p class="portfolioText">{{'portfolio.text1' | translate}}<br> {{'portfolio.text2' | translate}}</p>
+    </div>
+        @for (item of projectdata; track projectdata; let i = $index) {
+            @if (i % 2 !== 0) {
+                <div data-aos="fade-left" data-aos-delay="300" data-aos-offset="200" data-aos-duration="500" class="portfolioProjects">
+                    <img [src]="projectdata[i].imgPath" alt="">
+                    <div class="projectInfos">
+                        <h2 class="projectTitle">{{projectdata[i].name}}</h2>
+                        <h3 class="projectSkills">{{projectdata[i].skills}}</h3>
+                        <p class="projectDescription">{{translateName(projectdata[i].name) | translate}}</p>
+                        <div class="projectButtons">
+                            <a target="_blank" [href]="projectdata[i].projectPath"><button class="liveTest">{{'portfolio.button' | translate}}</button></a>
+                            <a target="_blank" [href]="projectdata[i].githubPath"><button class="projectLink">Github</button></a>
+                        </div>
+                    </div>
+                </div>
+            }
+            @else{
+                <div data-aos="fade-right" data-aos-delay="300" data-aos-offset="200" data-aos-duration="500" class="portfolioProjects turned">
+                    <img [src]="projectdata[i].imgPath" alt="">
+                    <div class="projectInfos">
+                        <h2 class="projectTitle">{{projectdata[i].name}}</h2>
+                        <h3 class="projectSkills">{{projectdata[i].skills}}</h3>
+                        <p class="projectDescription">{{translateName(projectdata[i].name) | translate}}</p>
+                        <div class="projectButtons">
+                            <a target="_blank" [href]="projectdata[i].projectPath"><button class="liveTest">{{'portfolio.button' | translate}}</button></a>
+                            <a target="_blank" [href]="projectdata[i].githubPath"><button class="projectLink">Github</button></a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }    
+    </div>
+</div>
