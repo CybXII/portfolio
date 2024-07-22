@@ -13,6 +13,9 @@
     box-shadow: -10px 14px 12px 1px rgb(255, 255, 255), 0px 200px 0px 200px rgba(32, 0, 0, 0.7882352941);
     margin-bottom: 100px;
     overflow: hidden;
+    p{
+        text-shadow: #000000 0px 0px 20px;
+    }
     .headImg{
         min-width: 350px;
         min-height: 350px;

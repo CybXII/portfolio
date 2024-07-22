@@ -36,5 +36,5 @@ export const routes: Routes = [
     { path: 'privacy/skills', redirectTo: '' },
     { path: 'privacy/portfolio', redirectTo: '' },
 
-    { path: '**', redirectTo: '/', pathMatch: 'full' }  // Fallback-Route
+    // { path: '**', redirectTo: '/', pathMatch: 'full' }  // Fallback-Route
 ];
