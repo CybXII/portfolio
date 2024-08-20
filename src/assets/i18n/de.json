@@ -13,13 +13,13 @@
     },
     "aboutMe": {
         "title": "Über mich",
-        "textMain": "Hallo! Ich bin Luft Alexander, ein angehender Junior Fullstack Entwickler mit einem starken Fokus auf Webentwicklungen mit Angular. Mit soliden Kenntnissen in HTML, CSS und JavaScript/Typescript bringe ich kreative Lösungen und Leidenschaft für agile Software-Entwicklung in jedes Projekt ein. Mein Hintergrund als Gamer hat mir wertvolle Erfahrungen in kleineren Projekten eingebracht, bei denen ich als Softwareentwickler mitwirken durfte.",
-        "textKnowledge": "In den letzten 3 Jahren konnte ich mir wertvolle Erfahrungen sammeln, an Projekten die ich Unterstützt habe. Angefangen hat es mit einem Gaming-Projekt, bei dem ich zunächst als Mapper im Team aushelfen wollte. Durch meine herausragende Leistung im Mapping wurde ich vom Projektleiter positiv wahrgenommen. Er erkannte mein Potenzial und bot mir zusammen mit dem Projektowner die Möglichkeit, das Team als Administrator zu unterstützen. Später wurde ich dann auch als Softwareentwickler aktiv und habe mich eigenständig Schritt für Schritt durch LUA-Scripts, JavaScript, HTML und CSS gearbeitet, um Probleme zu analysieren und zu beseitigen.",
-        "textSkills": "Warum Softwareentwicklung? Während meiner Tätigkeiten in kleineren Projekten hat sich für mich herauskristallisiert, dass mir Softwareentwicklung liegt und Freude bereitet. Die Teams bemerkten, dass ich mich sehr intensiv in die Thematik eingearbeitet habe und waren von meiner Leistung beeindruckt, weshalb sie mir immer wieder nahelegten, mir Gedanken darüber zu machen, die Softwareentwicklung beruflich auszuüben. Durch diese Ermutigung wurde mir klar, dass Softwareentwicklung meine berufliche Zukunft ist. Um mich auf ein professionelles Niveau zu bringen, habe ich mich entschieden, meine Weiterbildung bei der Developer Akademie zu absolvieren."
+        "textMain": "Hallo! Ich bin Luft Alexander, ein angehender Fullstack Entwickler mit einem starken Fokus auf Webentwicklungen mit Angular. Mit soliden Kenntnissen in HTML, CSS und JavaScript/Typescript bringe ich kreative Lösungen und Leidenschaft für agile Software-Entwicklung in jedes Projekt ein. Mein Hintergrund als Gamer hat mir wertvolle Erfahrungen in kleineren Projekten eingebracht, bei denen ich als Softwareentwickler mitwirken durfte.",
+        "textKnowledge": "In den letzten vier Jahren sammelte ich wertvolle Erfahrungen in verschiedenen Projekten. Vom Mapper in einem Gaming-Projekt entwickelte ich mich zum Administrator und später zum Softwareentwickler weiter, wobei ich Kenntnisse in LUA, JavaScript, HTML und CSS erwarb.",
+        "textSkills": "Warum Softwareentwicklung? Durch die Projekten habe ich festgestellt, dass mir die Softwareentwicklung liegt und Freude bereitet. Um meine Skills die ich mir selbst angeeignet habe auf ein professionelles Niveau zu bringen, habe ich mich entschieden, eine Weiterbildung bei der Developer Akademie zu absolvieren."
     },
     "skills": {
         "title": "Skills",
-        "text": "Ein paar dinge über mich(.3.) Donec ut imperdiet diam, et convallis neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+        "text": "Ich habe Erfahrung im Aufbau von Projekten mit verschiedenen Technologien und Konzepten gesammelt. Hier sind einige meiner Fähigkeiten die ich während meiner Weiterbildung vertieft und angeeignet habe.",
         "button": "Mehr erfahren"
     },
     "portfolio": {
@@ -47,10 +47,10 @@
         "sendSucces":"Deine Nachricht wurde verschickt!"
     },
     "join": {
-        "textProjekt": "Ich bin immer auf der Suche nach neuen Herausforderungen und Möglichkeiten, als Entwickler zu lernen und zu wachsen. Wenn du daran interessiert bist, mit mir zusammenzuarbeiten, nimm bitte Kontakt auf."
+        "textProjekt": "Dies ist ein Kanban-Board, das ich im Rahmen einer Gruppenarbeit mit meinen Mitschülern zum Abschluss des JavaScript-Moduls programmiert habe. Aktuell wird das Projekt mit Angular überarbeitet und erhält eine eigene Backend-Anbindung."
     },
     "pokedex": {
-        "textProjekt": "Eine einfache Pokedex-App, die es dir ermöglicht, nach Pokemon zu suchen und deren Details anzusehen. Dieses Projekt wurde mit der PokeAPI und Vanilla JavaScript erstellt."
+        "textProjekt": "Eine Pokedex-App, die es ermöglicht, nach Pokemon zu suchen und deren Details anzusehen. Dieses Projekt wurde mit der PokeAPI und Vanilla JavaScript erstellt."
     },
     "sharkie": {
         "textProjekt": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Hilf Sharkie, Münzen und Giftflaschen zu finden, um gegen den Killerwal zu kämpfen."

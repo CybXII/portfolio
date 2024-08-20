@@ -13,13 +13,13 @@
     },
     "aboutMe": {
         "title": "About me",
-        "textMain": "I am a front-end developer with a passion for creating beautiful and functional websites. I have experience in creating websites using HTML, CSS, JavaScript, React, and other technologies. I am always looking for new challenges and opportunities to learn and grow as a developer.",
-        "textKnowledge": "Some personal thing to share(...) Donec ut imperdiet diam, et convallis neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-        "textSkills": "Some personal thing to share(...) Donec ut imperdiet diam, et convallis neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        "textMain": "Hello! I'm Alexander Luft, an aspiring Fullstack Developer with a strong focus on web development using Angular. With solid skills in HTML, CSS, and JavaScript/TypeScript, I bring creative solutions and a passion for agile software development to every project. My background as a gamer has provided me with valuable experience in smaller projects where I had the opportunity to contribute as a software developer.",
+        "textKnowledge": "In the last four years, I have gained valuable experience through various projects. I started as a mapper in a gaming project and progressed to an administrator and later to a software developer, acquiring skills in LUA, JavaScript, HTML, and CSS along the way.",
+        "textSkills": "Why software development? Through these projects, I discovered that software development suits me and brings me joy. To elevate the skills I have self-taught to a professional level, I decided to pursue further education at the Developer Academy."
     },
     "skills": {
         "title": "Skills",
-        "text": "I have experience in creating websites using HTML, CSS, JavaScript, React, and other technologies. I am always looking for new challenges and opportunities to learn and grow as a developer.",
+        "text": "I have gained experience in building projects with various technologies and concepts. Here are some of the skills I have deepened and acquired during my further education.",
         "button": "Get in touch"
     },
     "portfolio": {
@@ -47,19 +47,19 @@
         "sendSucces":"Your message has been sent!"
     },
     "join": {
-        "textProjekt": "I am always looking for new challenges and opportunities to learn and grow as a developer. If you are interested in working with me, please get in touch."
+        "textProjekt": "This is a Kanban board that I developed as part of a group project with my teammates for the completion of the JavaScript module. The project is currently being updated with Angular and is receiving its own backend integration."
     },
     "pokedex": {
-        "textProjekt": "A simple Pokedex app that allows you to search for Pokemon by name and view their details. This project was created using the PokeAPI with Vanilla javascript."
+        "textProjekt": "A Pokedex app that allows users to search for Pokémon and view their details. This project was created using the PokeAPI and vanilla JavaScript."
     },
     "sharkie": {
-        "textProjekt": "A simple Jump-and-Run game based on an object-oriented approach. Help sharkie to find coins and poison bottles to fight against the killer whale."
+        "textProjekt": "A simple jump-and-run game based on an object-oriented approach. Help Sharkie find coins and poison bottles to battle the killer whale."
     },
     "footer": {
         "imprint": "Imprint"
     },
     "imprint": {
-        "contact": "Kontakt",
+        "contact": "Contact",
         "wrapper": "Legal Notice",
         "headline": "Legal Notice according to § 5 TMG",
         "phone": "Phone:",
