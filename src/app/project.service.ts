@@ -11,7 +11,7 @@ export class ProjectdataService {
             imgPath: 'assets/img/join.png',
             animation: 'data-aos="fade-left"',
             skills: 'Angular | TypeScript | HTML | SCSS | Firebase | Material Design',
-            projectPath:"https://luft-alexander.de/join/login.html",
+            projectPath:"https://join.luft-alexander.de/",
             githubPath:"https://github.com/CybXII/JOIN"
         },
         {
