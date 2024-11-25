@@ -15,6 +15,22 @@ export class ProjectdataService {
             githubPath:"https://github.com/CybXII/JOIN"
         },
         {
+            name: 'Videoflix',
+            imgPath: 'assets/img/videoflix.png',
+            animation: 'data-aos="fade-left"',
+            skills: 'Angular | TypeScript | HTML | Python | Django | Django Rest Framework | PostgreSQL | Material Design',
+            projectPath:"https://videoflix.luft-alexander.de/",
+            githubPath:"https://github.com/CybXII/videoflix-backend"
+        },
+        {
+            name: 'Coderr',
+            imgPath: 'assets/img/coderr.png',
+            animation: 'data-aos="fade-left"',
+            skills: 'Python | Django | Django Rest Framework | PostgreSQL',
+            projectPath:"https://coderr.luft-alexander.de/",
+            githubPath:"https://github.com/CybXII/coderr-backend"
+        },
+        {
             name: 'Sharkie',
             imgPath: 'assets/img/sharkie.png',
             animation: 'data-aos="fade-right"',

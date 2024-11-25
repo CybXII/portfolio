@@ -47,13 +47,19 @@
         "sendSucces":"Deine Nachricht wurde verschickt!"
     },
     "join": {
-        "textProjekt": "Dies ist ein Kanban-Board, das ich im Rahmen einer Gruppenarbeit mit meinen Mitschülern zum Abschluss des JavaScript-Moduls programmiert habe. Aktuell wird das Projekt mit Angular überarbeitet und erhält eine eigene Backend-Anbindung."
+        "textProjekt": "Join das Kanban-Board, welches ich im Rahmen eines Gruppenprojekts mit JavaScript entwickelt habe. Als Vorgabe diente ein Figma-Design, das wir präzise umsetzen mussten. Der Schwerpunkt lag auf der Umsetzung des Designs und der Zusammenarbeit über GitHub. Besonders herausfordernd war für mich, die Designvorgaben exakt einzuhalten und gleichzeitig den Überblick bei der Arbeit im Team zu behalten."
+    },
+    "videoflix": {
+        "textProjekt": "Videoflix ist ein Streaming-Service, den ich im Rahmen einer Gruppenarbeit mit meinen Mitschülern als Abschlussprojekt des Backend-Moduls entwickelt habe. Dabei konnte ich meinen gesamten Techstack anwenden, um die vielfältigen Anforderungen des Projekts erfolgreich umzusetzen. Besonders viel Freude hat mir die Konfiguration des Backend-Servers bereitet, den jeder für sich eigenständig eingerichtet und erfolgreich in Betrieb genommen hat."
+    },
+    "coderr": {
+        "textProjekt": "Coderr ist ein Projekt, das auf Django und dem Django Rest Framework basiert. Der Schwerpunkt lag darauf, die Kommunikation zwischen Frontend und Backend zu implementieren und die Anforderungen einer vorgegebenen Checkliste zu erfüllen. Im Anschluss habe ich die Hosting-Konfiguration für meinen Backend-Server übernommen, um zwei Backend-Projekte parallel auf demselben Server erfolgreich zu betreiben."
     },
     "pokedex": {
-        "textProjekt": "Eine Pokedex-App, die es ermöglicht, nach Pokemon zu suchen und deren Details anzusehen. Dieses Projekt wurde mit der PokeAPI und Vanilla JavaScript erstellt."
+        "textProjekt": "Eine Pokedex-App, die es ermöglicht, nach Pokemon zu suchen und deren Details anzusehen. Bei diesem Projekt habe ich mit der PokeAPI und Vanilla JavaScript gearbeitet es soll. Der Schwerpunkt lag darauf die API-Schnittstellen ab zu fragen und im Frontend diese Daten anzuzeigen."
     },
     "sharkie": {
-        "textProjekt": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Hilf Sharkie, Münzen und Giftflaschen zu finden, um gegen den Killerwal zu kämpfen."
+        "textProjekt": "Sharkie ist ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Die Herausforderung war die Objekt Orientierte Programmierung bei diesem Projekt. Sharkie war eine Herausforderung die mir eine große Freude bereitete "
     },
     "footer": {
         "imprint": "Impressum"

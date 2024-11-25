@@ -47,16 +47,22 @@
         "sendSucces":"Your message has been sent!"
     },
     "join": {
-        "textProjekt": "This is a Kanban board that I developed as part of a group project with my teammates for the completion of the JavaScript module. The project is currently being updated with Angular and is receiving its own backend integration."
+        "textProjekt": "Join is a Kanban board that I developed as part of a group project using JavaScript. The project was based on a Figma design, which we had to implement precisely. The focus was on implementing the design and collaborating via GitHub. The most challenging part for me was adhering to the design specifications while maintaining an overview during teamwork."
+    },
+    "videoflix": {
+        "textProjekt": "Videoflix is a streaming service that I developed with my classmates as a group project to conclude the backend module. I was able to apply my entire tech stack to successfully meet the diverse requirements of the project. I particularly enjoyed configuring the backend server, which everyone set up and operated independently."
+    },
+    "coderr": {
+        "textProjekt": "Coderr is a project based on Django and the Django Rest Framework. The focus was on implementing communication between the frontend and backend and meeting the requirements of a predefined checklist. Subsequently, I handled the hosting configuration for my backend server to successfully operate two backend projects in parallel on the same server."
     },
     "pokedex": {
-        "textProjekt": "A Pokedex app that allows users to search for Pokémon and view their details. This project was created using the PokeAPI and vanilla JavaScript."
+        "textProjekt": "A Pokedex app that allows users to search for Pokémon and view their details. In this project, I worked with the PokeAPI and Vanilla JavaScript. The focus was on querying the API interfaces and displaying the data in the frontend."
     },
     "sharkie": {
-        "textProjekt": "A simple jump-and-run game based on an object-oriented approach. Help Sharkie find coins and poison bottles to battle the killer whale."
+        "textProjekt": "Sharkie is a simple jump-and-run game based on an object-oriented approach. The challenge was mastering object-oriented programming in this project. Sharkie was a challenging yet highly enjoyable experience for me."
     },
     "footer": {
-        "imprint": "Imprint"
+        "imprint": "Impressum"
     },
     "imprint": {
         "contact": "Contact",
