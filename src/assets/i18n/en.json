@@ -13,7 +13,7 @@
     },
     "aboutMe": {
         "title": "About me",
-        "textMain": "Hello! I'm Alexander Luft, an aspiring Fullstack Developer with a strong focus on web development using Angular. With solid skills in HTML, CSS, and JavaScript/TypeScript, I bring creative solutions and a passion for agile software development to every project. My background as a gamer has provided me with valuable experience in smaller projects where I had the opportunity to contribute as a software developer.",
+        "textMain": "Hello! I'm Alexander Luft, an Fullstack Developer with a focus on web development and game development. With solid skills in HTML, CSS, JavaScript/TypeScript and Python I bring creative solutions and a passion for agile software development to every project. My background as a gamer has provided me with valuable experience in smaller projects where I had the opportunity to contribute as a software developer.",
         "textKnowledge": "In the last four years, I have gained valuable experience through various projects. I started as a mapper in a gaming project and progressed to an administrator and later to a software developer, acquiring skills in LUA, JavaScript, HTML, and CSS along the way.",
         "textSkills": "Why software development? Through these projects, I discovered that software development suits me and brings me joy. To elevate the skills I have self-taught to a professional level, I decided to pursue further education at the Developer Academy."
     },
