@@ -36,5 +36,5 @@ jobs:
         port: 21
         protocol: ftps
         local-dir: ./dist/portfolio/browser/
-        server-dir: /
+        server-dir: /httpdocs/
         concurrent-uploads: 2
