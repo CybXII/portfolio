@@ -12,7 +12,6 @@ jobs:
     strategy:
       matrix:
         node-version: [21.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
     - uses: actions/checkout@v4
@@ -36,5 +35,5 @@ jobs:
         port: 21
         protocol: ftps
         local-dir: ./dist/portfolio/browser/
-        server-dir: /
-        concurrent-uploads: 2
+        server-dir: / # Falls notwendig, passe dies an
+        security: loose
