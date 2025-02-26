@@ -36,4 +36,5 @@ jobs:
         protocol: ftps
         local-dir: ./dist/portfolio/browser/
         server-dir: /
-        security: loose
+        concurrent-uploads: 2
+        dry-run: true
