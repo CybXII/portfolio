@@ -55,11 +55,8 @@
     "coderr": {
         "textProjekt": "Coderr is a project based on Django and the Django Rest Framework. The focus was on implementing communication between the frontend and backend and meeting the requirements of a predefined checklist. Subsequently, I handled the hosting configuration for my backend server to successfully operate two backend projects in parallel on the same server."
     },
-    "pokedex": {
-        "textProjekt": "A Pokedex app that allows users to search for Pokémon and view their details. In this project, I worked with the PokeAPI and Vanilla JavaScript. The focus was on querying the API interfaces and displaying the data in the frontend."
-    },
-    "sharkie": {
-        "textProjekt": "Sharkie is a simple jump-and-run game based on an object-oriented approach. The challenge was mastering object-oriented programming in this project. Sharkie was a challenging yet highly enjoyable experience for me."
+    "dabubble": {
+        "textProjekt": "DaBubble is a chat messenger to deepen my Angular skills. The focus of this group project was on implementing a real-time communication with an attachment to Firebase."
     },
     "footer": {
         "imprint": "Impressum"

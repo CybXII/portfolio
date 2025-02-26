@@ -6,24 +6,16 @@ import { Injectable } from '@angular/core';
 })
 export class ProjectdataService {
     public projectdata = [
-        // {
-        //     name: 'Join',
-        //     imgPath: 'assets/img/join.png',
-        //     animation: 'data-aos="fade-left"',
-        //     skills: 'Angular | TypeScript | HTML | SCSS | Firebase | Material Design',
-        //     projectPath:"https://join.luft-alexander.de/",
-        //     githubPath:"https://github.com/CybXII/JOIN"
-        // },
         {
-            name: 'Videoflix',
+            name: 'Videoflix [Fullstack]',
             imgPath: 'assets/img/videoflix.png',
             animation: 'data-aos="fade-left"',
-            skills: 'Angular | TypeScript | HTML | Python | Django | Django Rest Framework | PostgreSQL | Material Design',
+            skills: 'Angular | TypeScript | SCSS | Python | Django | Django Rest Framework | PostgreSQL | Material Design',
             projectPath:"https://videoflix.luft-alexander.de/",
             githubPath:"https://github.com/CybXII/videoflix-backend"
         },
         {
-            name: 'Coderr',
+            name: 'Coderr [Backend]',
             imgPath: 'assets/img/coderr.png',
             animation: 'data-aos="fade-left"',
             skills: 'Python | Django | Django Rest Framework | PostgreSQL',
@@ -31,20 +23,12 @@ export class ProjectdataService {
             githubPath:"https://github.com/CybXII/coderr-backend"
         },
         {
-            name: 'Sharkie',
-            imgPath: 'assets/img/sharkie.png',
+            name: 'DaBubble [Frontend]',
+            imgPath: 'assets/img/dabubble.png',
             animation: 'data-aos="fade-right"',
-            skills: 'JavaScript | HTML | CSS',
-            projectPath:"https://sharkie.luft-alexander.de",
-            githubPath:"https://github.com/CybXII/Developer-Akademie/tree/master/1.Frontend-Module/Modul-12/Sharkie"
-        },
-        {
-            name: 'Pokedex',
-            imgPath: 'assets/img/pokedex.png',
-            animation: 'data-aos="fade-left"',
-            skills: 'JavaScript | HTML | CSS | Api',
-            projectPath:"https://luft-alexander.de/pokedex/index.html",
-            githubPath:"https://github.com/CybXII/Developer-Akademie/tree/master/1.Frontend-Module/Modul-9/Pokedex"
+            skills: 'Angular | TypeScript | Firebase | SCSS  ',
+            projectPath:"https://dabubble.luft-alexander.de",
+            githubPath:"https://github.com/CybXII/DaBubble"
         },
     ];
     public skillsData = [
