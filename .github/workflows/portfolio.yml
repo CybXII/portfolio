@@ -35,5 +35,5 @@ jobs:
         port: 21
         protocol: ftps
         local-dir: ./dist/portfolio/browser/
-        server-dir: / # Falls notwendig, passe dies an
+        server-dir: /
         security: loose
