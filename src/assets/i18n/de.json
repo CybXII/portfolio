@@ -13,9 +13,9 @@
     },
     "aboutMe": {
         "title": "Über mich",
-        "textMain": "Hallo! Ich bin Luft Alexander, ein Fullstack Entwickler mit einem Fokus auf Webentwicklungen und Gamingentwicklung. Mit soliden Kenntnissen in HTML, CSS, JavaScript/Typescript und Python bringe ich kreative Lösungen und Leidenschaft für agile Software-Entwicklung in jedes Projekt ein. Mein Hintergrund als Gamer hat mir wertvolle Erfahrungen in kleineren Projekten eingebracht, bei denen ich als Softwareentwickler mitwirken durfte.",
+        "textMain": "Hallo! Ich bin Alexander Luft, ein Fullstack Entwickler mit einem Fokus auf Webentwicklungen und Gamingentwicklung. Mit soliden Kenntnissen in HTML, CSS, JavaScript/TypeScript und Python bringe ich kreative Lösungen und Leidenschaft für agile Software-Entwicklung in jedes Projekt ein. Mein Hintergrund als Gamer hat mir wertvolle Erfahrungen in kleineren Projekten eingebracht, bei denen ich als Softwareentwickler mitwirken durfte.",
         "textKnowledge": "In den letzten vier Jahren sammelte ich wertvolle Erfahrungen in verschiedenen Projekten. Vom Mapper in einem Gaming-Projekt entwickelte ich mich zum Administrator und später zum Softwareentwickler weiter, wobei ich Kenntnisse in LUA, JavaScript, HTML und CSS erwarb.",
-        "textSkills": "Warum Softwareentwicklung? Durch die Projekten habe ich festgestellt, dass mir die Softwareentwicklung liegt und Freude bereitet. Um meine Skills die ich mir selbst angeeignet habe auf ein professionelles Niveau zu bringen, habe ich mich entschieden, eine Weiterbildung bei der Developer Akademie zu absolvieren."
+        "textSkills": "Warum Softwareentwicklung? Durch die Projekten habe ich festgestellt, dass mir die Softwareentwicklung liegt und Freude bereitet. Meine selbst angeeigneten Skills, habe ich durch eine Weiterbildung bei der Developer Akademie vertieft."
     },
     "skills": {
         "title": "Skills",
@@ -24,7 +24,7 @@
     },
     "portfolio": {
         "title": "Projekte",
-        "text1": "Erkunde hier eine Auswahl meiner Arbeiten - Interagiere mit Projekten",
+        "text1": "Erkunden sie hier eine Auswahl meiner Arbeiten - Interagieren sie mit Projekten",
         "text2": "um meine Fähigkeiten in Aktion zu sehen.",
         "button": "Testen"
     },
@@ -33,18 +33,18 @@
         "question1": "Sie haben ein Problem?",
         "question2": "Brauchen sie einen Software Entwickler?",
         "contactMe":"Kontakieren Sie mich",
-        "text": "Kontaktiere mich über dieses Formular, ich bin daran interessiert, von dir zu hören, deine Ideen kennenzulernen und mit meiner Arbeit zu deinen Projekten beizutragen.",
+        "text": "Kontaktieren sie mich über dieses Formular, ich bin daran interessiert, von ihnen zu hören, ihre Ideen kennenzulernen und mit meiner Arbeit zu ihren Projekten beizutragen.",
         "button": "Nachricht senden"
     },
     "form":{
-        "name": "Dein Name",
-        "email": "Deine Email",
-        "message": "Deine Nachricht",
+        "name": "Ihr/e Name",
+        "email": "Ihr/e Email",
+        "message": "Ihre Nachricht",
         "send": "Nachricht Senden",
         "text1":"Ich habe die ",
         "text2":"und stimme der Verarbeitung meiner Daten gemäß den Angaben zu.",
         "privacy":"Datenschutzerklärung",
-        "sendSucces":"Deine Nachricht wurde verschickt!"
+        "sendSucces":"Ihre Nachricht wurde verschickt!"
     },
     "join": {
         "textProjekt": "Join das Kanban-Board, welches ich im Rahmen eines Gruppenprojekts mit JavaScript entwickelt habe. Als Vorgabe diente ein Figma-Design, das wir präzise umsetzen mussten. Der Schwerpunkt lag auf der Umsetzung des Designs und der Zusammenarbeit über GitHub. Besonders herausfordernd war für mich, die Designvorgaben exakt einzuhalten und gleichzeitig den Überblick bei der Arbeit im Team zu behalten."
