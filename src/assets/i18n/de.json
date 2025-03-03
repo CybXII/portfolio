@@ -37,8 +37,8 @@
         "button": "Nachricht senden"
     },
     "form":{
-        "name": "Ihr/e Name",
-        "email": "Ihr/e Email",
+        "name": "Ihre Name",
+        "email": "Ihre Email",
         "message": "Ihre Nachricht",
         "send": "Nachricht Senden",
         "text1":"Ich habe die ",
