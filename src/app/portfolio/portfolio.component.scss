@@ -20,6 +20,11 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+        :first-child{
+            p{
+                margin-bottom: 100px;
+            }
+        }
     }
     .portfolioProjects{
         display: flex;
@@ -71,6 +76,7 @@
         display: flex;
         align-items: center;
         gap: 50px;
+        margin-bottom: 40px;
         h1{
             font-family: Poppins;
             font-size: 90px;

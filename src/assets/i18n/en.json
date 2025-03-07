@@ -13,9 +13,9 @@
     },
     "aboutMe": {
         "title": "About me",
-        "textMain": "Hello! I'm Alexander Luft, an Fullstack Developer with a focus on web development and game development. With solid skills in HTML, CSS, JavaScript/TypeScript and Python I bring creative solutions and a passion for agile software development to every project. My background as a gamer has provided me with valuable experience in smaller projects where I had the opportunity to contribute as a software developer.",
-        "textKnowledge": "In the last four years, I have gained valuable experience through various projects. I started as a mapper in a gaming project and progressed to an administrator and later to a software developer, acquiring skills in LUA, JavaScript, HTML, and CSS along the way.",
-        "textSkills": "Why software development? Through these projects, I discovered that software development suits me and brings me joy. To elevate the skills I have self-taught to a professional level, I decided to pursue further education at the Developer Academy."
+        "textMain": "Hello! I'm Alexander Luft, a fullstack developer with experience in implementing projects using JavaScript, TypeScript, Angular, and Django. Logical thinking, independent work, and creative problem-solving are among my strengths. These skills make me a valued point of contact in teams — not only when planning architectures and debugging but also during implementation.",
+        "textKnowledge": "I am someone who likes to keep the big picture in mind and recognize logical connections — whether in projects, within a team, or when facing complex challenges. This ability helps me approach problems in a structured way and develop well-thought-out solutions.",
+        "textSkills": "Since 2019, I have been working on gaming projects in a private environment and have gained valuable experience in the process. What initially started as a mapper quickly evolved — from administrator to software developer."
     },
     "skills": {
         "title": "Skills",
@@ -46,20 +46,20 @@
         "privacy":"privacy policy",
         "sendSucces":"Your message has been sent!"
     },
-    "join": {
-        "textProjekt": "Join is a Kanban board that I developed as part of a group project using JavaScript. The project was based on a Figma design, which we had to implement precisely. The focus was on implementing the design and collaborating via GitHub. The most challenging part for me was adhering to the design specifications while maintaining an overview during teamwork."
+    "join [frontend]": {
+        "textProjekt": "Join is a Kanban board developed with JavaScript. The project was based on a Figma design that had to be implemented with precision. The focus was on translating the design accurately and collaborating effectively as a team using collaboration tools. The biggest challenge for me was to adhere precisely to the design specifications while maintaining an overview of the team's progress."
     },
-    "videoflix": {
-        "textProjekt": "Videoflix is a streaming service that I developed with my classmates as a group project to conclude the backend module. I was able to apply my entire tech stack to successfully meet the diverse requirements of the project. I particularly enjoyed configuring the backend server, which everyone set up and operated independently."
+    "videoflix [fullstack]": {
+        "textProjekt": "Videoflix is a streaming service where Angular was used for the frontend and Django for the backend. The focus was on planning and implementing the architecture, ensuring seamless communication between the frontend and backend, and deploying the application. I particularly enjoyed configuring the backend server, which I set up and successfully brought into operation."
     },
-    "coderr": {
-        "textProjekt": "Coderr is a project based on Django and the Django Rest Framework. The focus was on implementing communication between the frontend and backend and meeting the requirements of a predefined checklist. Subsequently, I handled the hosting configuration for my backend server to successfully operate two backend projects in parallel on the same server."
+    "coderr [backend]": {
+        "textProjekt": "Coderr is a project based on Django and the Django Rest Framework. The focus was on implementing the backend communication for an existing frontend and meeting the requirements of a predefined checklist. Planning and implementing the backend architecture, as well as configuring the server, were particularly exciting for me, as I successfully operated two backend projects on a single server."
     },
-    "dabubble": {
-        "textProjekt": "DaBubble is a chat messenger to deepen my Angular skills. The focus of this group project was on implementing a real-time communication with an attachment to Firebase."
+    "dabubble [frontend]": {
+        "textProjekt": "DaBubble is a Chat App based on Angular that utilizes Google Firebase. The focus of this project was on implementing real-time communication between users and integrating it with Firebase. Planning the database structure and implementing real-time communication using Observables were particularly exciting for me."
     },
     "footer": {
-        "imprint": "Impressum"
+        "imprint": "Legal Notice"
     },
     "imprint": {
         "contact": "Contact",

@@ -8,14 +8,14 @@
     "landingPage": {
         "me": "Ich bin",
         "job": "Software Entwickler",
-        "buttonTalk":"Lass uns reden",
-        "scrollDown": "Runter springen"
+        "buttonTalk":"Kontakt",
+        "scrollDown": "Projekte"
     },
     "aboutMe": {
         "title": "Über mich",
-        "textMain": "Hallo! Ich bin Alexander Luft, ein Fullstack Entwickler mit einem Fokus auf Webentwicklungen und Gamingentwicklung. Mit soliden Kenntnissen in HTML, CSS, JavaScript/TypeScript und Python bringe ich kreative Lösungen und Leidenschaft für agile Software-Entwicklung in jedes Projekt ein. Mein Hintergrund als Gamer hat mir wertvolle Erfahrungen in kleineren Projekten eingebracht, bei denen ich als Softwareentwickler mitwirken durfte.",
-        "textKnowledge": "In den letzten vier Jahren sammelte ich wertvolle Erfahrungen in verschiedenen Projekten. Vom Mapper in einem Gaming-Projekt entwickelte ich mich zum Administrator und später zum Softwareentwickler weiter, wobei ich Kenntnisse in LUA, JavaScript, HTML und CSS erwarb.",
-        "textSkills": "Warum Softwareentwicklung? Durch die Projekten habe ich festgestellt, dass mir die Softwareentwicklung liegt und Freude bereitet. Meine selbst angeeigneten Skills, habe ich durch eine Weiterbildung bei der Developer Akademie vertieft."
+        "textMain": "Hallo! Ich bin Alexander Luft, ein Fullstack Entwickler mit Erfahrung in der Umsetzung von Projekten mit JavaScript, TypeScript, Angular und Django. Logisches Denken, eigenverantwortliches Arbeiten und kreative Lösungsansätze zählen zu meinen Stärken. Diese Fähigkeiten machen mich in Teams nicht nur beim Planen von Architekturen und Debugging zu einem gefragten Ansprechpartner, sondern auch bei der Umsetzung.",
+        "textKnowledge": "Ich bin jemand, der gerne das große Ganze im Blick hat und logische Zusammenhänge erkennt, sei es in Projekten, im Team oder bei komplexen Herausforderungen. Diese Fähigkeit hilft mir, Probleme strukturiert anzugehen und durchdachte Lösungen zu entwickeln.",
+        "textSkills": "Seit 2019 arbeite ich im privaten Umfeld an Gaming-Projekten und habe dabei wertvolle Erfahrungen gesammelt. Was zunächst als Mapper begann, entwickelte sich schnell weiter vom Administrator bis hin zum Softwareentwickler."
     },
     "skills": {
         "title": "Skills",
@@ -24,8 +24,8 @@
     },
     "portfolio": {
         "title": "Projekte",
-        "text1": "",
-        "text2": "",
+        "text1": "Erkunden sie hier eine Auswahl meiner Arbeiten - Interagieren sie mit Projekten",
+        "text2": "um meine Fähigkeiten in Aktion zu sehen.",
         "button": "Testen"
     },
     "contact":{
@@ -46,17 +46,17 @@
         "privacy":"Datenschutzerklärung",
         "sendSucces":"Ihre Nachricht wurde verschickt!"
     },
-    "join": {
-        "textProjekt": "Join das Kanban-Board, welches ich im Rahmen eines Gruppenprojekts mit JavaScript entwickelt habe. Als Vorgabe diente ein Figma-Design, das wir präzise umsetzen mussten. Der Schwerpunkt lag auf der Umsetzung des Designs und der Zusammenarbeit über GitHub. Besonders herausfordernd war für mich, die Designvorgaben exakt einzuhalten und gleichzeitig den Überblick bei der Arbeit im Team zu behalten."
+    "join [frontend]": {
+        "textProjekt": "Join das Kanban-Board, welches mit JavaScript entwickelt wurde. Als Vorlage diente ein Figma-Design, welches präzise umgesetzen werden sollte. Der Schwerpunkt lag auf der Umsetzung des Designs und der Zusammenarbeit des Teams mit Kollaborationstools. Besonders herausfordernd war für mich, die Designvorgaben exakt einzuhalten und gleichzeitig den Überblick bei der Arbeit im Team zu behalten."
     },
     "videoflix [fullstack]": {
-        "textProjekt": "Videoflix ist ein Streaming-Service, den ich im Rahmen einer Gruppenarbeit mit meinen Mitschülern als Abschlussprojekt des Backend-Moduls entwickelt habe. Dabei konnte ich meinen gesamten Techstack anwenden, um die vielfältigen Anforderungen des Projekts erfolgreich umzusetzen. Besonders viel Freude hat mir die Konfiguration des Backend-Servers bereitet, den jeder für sich eigenständig eingerichtet und erfolgreich in Betrieb genommen hat."
+        "textProjekt": "Videoflix ist ein Streaming-Service, für das Frontend wurde Angular verwendet und das Backend wurde mit Django entwickelt. Der Schwerpunkt lag auf der Planung und Umsetzung der Architektur und der Kommunikation zwischen Frontend und Backend und dem Deployment. Besonders viel Freude hat mir die Konfiguration des Backend-Servers bereitet, den eingerichtet und erfolgreich in Betrieb genommen habe."
     },
     "coderr [backend]": {
-        "textProjekt": "Coderr ist ein Projekt, das auf Django und dem Django Rest Framework basiert. Der Schwerpunkt lag darauf, die Kommunikation zwischen Frontend und Backend zu implementieren und die Anforderungen einer vorgegebenen Checkliste zu erfüllen. Im Anschluss habe ich die Hosting-Konfiguration für meinen Backend-Server übernommen, um zwei Backend-Projekte parallel auf demselben Server erfolgreich zu betreiben."
+        "textProjekt": "Coderr ist ein Projekt, das auf Django und dem Django Rest Framework basiert. Der Schwerpunkt lag darauf, die Backend Kommunikation zu einem bestehendem Frontend zu implementieren und die Anforderungen einer vorgegebenen Checkliste zu erfüllen. Die Planung und Umsetzung der Backend Architektur sowie die Konfiguration des Servers waren für mich besonders spannend, da ich zwei Backend Projekte auf einem Server betrieben habe."
     },
     "dabubble [frontend]": {
-        "textProjekt": "DaBubble ist ein Chat Messenger, um meine Angular Kenntnisse zu vertiefen. Der Schwerpunkt bei diesem Gruppen Projekt lag auf der Implementierung einer Realtime Kommunikation zwischen den Nutzern. Für dieses Projekt wurde die Google Firebase verwendet."
+        "textProjekt": "DaBubble ist eine Chat-App, das auf Angular basiert und die Google Firebase verwendet. Der Schwerpunkt bei diesem Projekt lag auf der Implementierung einer Realtime Kommunikation zwischen den Nutzern und der Anbindung an Firebase. Die Plannung der Datenbankstruktur und die Umsetzung der Realtime Kommunikation mit Observables waren für mich besonders spannend."
     },
     "footer": {
         "imprint": "Impressum"
@@ -68,5 +68,4 @@
         "phone": "Telefon:",
         "email": "E-Mail:"
     }
-
 }
