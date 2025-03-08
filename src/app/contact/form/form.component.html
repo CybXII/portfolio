@@ -39,19 +39,19 @@
                 {{'form.text2' | translate}}
             </p>
         </div>  
-        @if (!contactData.privacy && !contactForm.valid && contactForm.submitted && !privacy.disabled) {
+        @if (!contactData.privacy && !contactForm.valid && contactForm.submitted) {
             <span>{{formInfos.checkboxInfo}}</span>
         }@else {
             <span></span>
         } 
     </label>
-    @if (!contactData.privacy && !contactForm.valid && contactForm.submitted && !privacy.disabled){
+    @if (!contactData.privacy && !contactForm.valid && contactForm.submitted){
         <div class="sendButton">
             <button type="submit">{{'form.send' | translate}}</button>
         </div>
     }@else {
         <div class="sendButton">
-            <button class="disabled" type="submit" [disabled]="!contactForm.valid">{{'form.send' | translate}}</button>
+            <button class="disabled" type="submit">{{'form.send' | translate}}</button>
         </div>
     }
 </form>   
