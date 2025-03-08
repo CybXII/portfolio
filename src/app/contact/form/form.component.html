@@ -7,7 +7,7 @@
     }
 <form class="contactForm" (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" data-aos="fade-up-left" data-aos-delay="300" data-aos-offset="300" data-aos-duration="500">
     <label for="name">
-        <input #name="ngModel" [(ngModel)]="contactData.name" type="text" name="name" id="name" [placeholder]="'form.name' | translate" required >
+        <input #name="ngModel" [(ngModel)]="contactData.name" type="text" name="name" id="name" autocomplete="name" [placeholder]="'form.name' | translate" required >
         @if (!name.valid && contactForm.submitted) {
             <span>{{formInfos.requiredInfo}}</span>
         }@else {
@@ -15,7 +15,7 @@
         } 
     </label>
     <label for="email">
-        <input #email="ngModel" [(ngModel)]="contactData.email" type="email" name="email" id="email" [placeholder]="'form.email' | translate" pattern="[^@\s]+@[^@\s]+.[^@\s]+" required>
+        <input #email="ngModel" [(ngModel)]="contactData.email" type="email" name="email" id="email" autocomplete="email" [placeholder]="'form.email' | translate" pattern="[^@\s]+@[^@\s]+.[^@\s]+" required>
         @if (!email.valid && contactForm.submitted) {
             <span>{{formInfos.emailInfo}}</span>
         }@else {
@@ -47,7 +47,7 @@
     </label>
     @if (!contactData.privacy && !contactForm.valid && contactForm.submitted){
         <div class="sendButton">
-            <button type="submit">{{'form.send' | translate}}</button>
+            <button name="submit" id="submit" type="submit">{{'form.send' | translate}}</button>
         </div>
     }@else {
         <div class="sendButton">

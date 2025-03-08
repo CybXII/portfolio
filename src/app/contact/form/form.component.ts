@@ -8,7 +8,7 @@ import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-form',
   standalone: true,
-  imports: [FormsModule, NgStyle,TranslateModule ,RouterLink],
+  imports: [FormsModule,TranslateModule ,RouterLink],
   templateUrl: './form.component.html',
   styleUrls: ['./form.component.scss', './responsiv.form.component.scss']
 })
