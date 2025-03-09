@@ -7,7 +7,7 @@
     }
 <form class="contactForm" (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" data-aos="fade-up-left" data-aos-delay="300" data-aos-offset="300" data-aos-duration="500">
     <label for="name">
-        <input #name="ngModel" [(ngModel)]="contactData.name" type="text" name="name" id="name" autocomplete="name" [placeholder]="'form.name' | translate" required >
+        <input #name="ngModel" [(ngModel)]="contactData.name" type="text" name="name" id="name" autocomplete="name" [placeholder]="'form.name' | translate" required max-length="30">
         @if (!name.valid && contactForm.submitted) {
             <span>{{formInfos.requiredInfo}}</span>
         }@else {
