@@ -32,10 +32,9 @@
         gap: 35px;
         padding: 0 100px;
         margin-bottom: 150px;
+        align-items: center;
         img{
-            max-width: 620px;
-            max-height: 340px;
-            width: 100%;
+            max-width: 50%;
             aspect-ratio: 16 / 9;
         }
         h2{
@@ -65,6 +64,7 @@
             cursor: default;
         }
         .projectInfos{
+            min-width: 50%;
             .projectButtons{
                 display: flex;
                 justify-content: space-evenly;

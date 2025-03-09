@@ -51,7 +51,12 @@
     color: aliceblue;
     flex-direction: column;
     width: 470px;
+    background-color: rgb(32 0 0 / 70%);
+    padding: 20px;
+    border: 2px white solid;
+    border-radius: 40px;
     h2{
+        text-wrap: nowrap;
         width: 100%;
         font-size: 72px;
         margin: 0;
