@@ -26,9 +26,7 @@ jobs:
         run: |
           npm install
           npm run build --if-present
-      - name: 🔍 SSH Key Länge checken
-        run: |
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" | wc -c
+
       - name: 📂 Upload to VPS via SFTP
         uses: appleboy/scp-action@v0.1.7
         with:
