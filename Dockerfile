@@ -4,31 +4,40 @@
 ARG NODE_VERSION=22.12.0
 
 ################################################################################
-# Build-Stufe: Angular App bauen
-FROM node:${NODE_VERSION}-alpine AS build
+# Build-Stufe: Angular App bauen (✅ LOKAL in CI/CD verwenden, ❌ NICHT auf dem VPS)
+# Wird auf dem Server nicht benötigt, da wir die fertige App bereits im dist/ bereitstellen.
+#
+# Du kannst diesen Abschnitt **kommentieren oder komplett entfernen**, wenn du
+# das Image auf dem Server nur noch aus dem Build-Output erzeugst.
+#
+# --- BEGIN BUILD-STUFE ---
+# FROM node:${NODE_VERSION}-alpine AS build
 
-WORKDIR /app
+# WORKDIR /app
 
-# Abhängigkeiten installieren
-COPY package.json package-lock.json ./
-RUN npm install
+# # Abhängigkeiten installieren
+# COPY package.json package-lock.json ./
+# RUN npm install
 
-# Restliche Quellcodes kopieren und App bauen
-COPY . .
-RUN npm run build
-
+# # Restliche Quellcodes kopieren und App bauen
+# COPY . .
+# RUN npm run build
+# --- ENDE BUILD-STUFE ---
 ################################################################################
+
 # Produktions-Stufe: Mit Nginx ausliefern
 FROM nginx:alpine AS final
 
 # Entferne Standard-Nginx-Seite
 RUN rm -rf /usr/share/nginx/html/*
 
-# Kopiere Build-Output von Angular nach Nginx-Webroot
-COPY --from=build /app/dist/portfolio/browser /usr/share/nginx/html
+# ⛔️ Auf dem VPS kopieren wir direkt aus dem `deploy/`-Ordner.
+# Daher brauchst du **den Build-Output aus GitHub Actions (dist/...)**:
+#
+# ⚠️ Diese Zeile funktioniert nur, wenn du die App lokal gebaut hast (z. B. im deploy-Ordner).
+COPY . /usr/share/nginx/html
 
-# Optional: Custom Nginx config für Angular Routing (z. B. Fallback auf index.html)
-# (siehe unten für Datei-Inhalt)
+# Custom Nginx config für Angular Routing
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Port freigeben

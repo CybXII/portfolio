@@ -35,7 +35,7 @@ jobs:
           strip_components: 1
           debug: true
 
-      - name: "🐳 SSH: Install Docker & Run App"
+      - name: 🐳 Deploy Docker container on VPS
         uses: appleboy/ssh-action@v1.0.0
         with:
           host: ${{ secrets.HOST }}
@@ -43,14 +43,12 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.PORT || 22 }}
           script: |
-            # Install Docker (falls nicht vorhanden)
+            # Docker & Compose installieren falls nötig
             if ! command -v docker &> /dev/null; then
               echo "🔧 Installing Docker..."
               curl -fsSL https://get.docker.com | sh
               sudo usermod -aG docker $USER
             fi
-
-            # Optional: Install docker-compose (falls benötigt)
             if ! command -v docker-compose &> /dev/null; then
               echo "🔧 Installing Docker Compose..."
               sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose

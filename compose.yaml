@@ -1,6 +1,10 @@
-version: '3'
 services:
   portfolio:
-    build: .
+    image: portfolio-app
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
-      - "4200:80"
+      - "80:80"
+    restart: always
+    container_name: portfolio
