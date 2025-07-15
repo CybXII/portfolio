@@ -5,6 +5,6 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "80:80"
+      - "4200:80"
     restart: always
     container_name: portfolio
