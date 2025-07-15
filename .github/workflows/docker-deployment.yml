@@ -1,0 +1,49 @@
+name: 🚀 Deploy Angular App (Static Build + Docker)
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 📦 Install dependencies and build Angular app
+        run: |
+          npm install
+          npm run build -- --configuration production
+
+      - name: 🧱 Prepare deployment files (dist + config)
+        run: |
+          mkdir deploy
+          cp -r dist/portfolio/browser/* deploy/
+          cp nginx.conf Dockerfile compose.yaml deploy/
+
+      - name: 📤 Upload to VPS
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.PORT || 22 }}
+          source: "deploy"
+          target: "/home/portfolio-docker"
+          strip_components: 1
+          debug: true
+
+      - name: 🐳 SSH: Build & Run Docker container on VPS
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.PORT || 22 }}
+          script: |
+            cd /home/portfolio-docker
+            docker compose down || true
+            docker compose build --no-cache
+            docker compose up -d
