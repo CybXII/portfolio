@@ -36,4 +36,5 @@ jobs:
           port: 22
           source: "./dist/portfolio/browser/*"
           target: "/home/portfolio"
+          strip_components: 3
           debug: true
