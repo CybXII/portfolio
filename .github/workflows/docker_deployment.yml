@@ -35,7 +35,7 @@ jobs:
           strip_components: 1
           debug: true
 
-      - name: 🐳 SSH: Build & Run Docker container on VPS
+      - name: 🐳 SSH Build & Run Docker container on VPS
         uses: appleboy/ssh-action@v1.0.0
         with:
           host: ${{ secrets.HOST }}
