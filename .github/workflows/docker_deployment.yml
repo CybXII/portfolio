@@ -29,20 +29,34 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: 22
+          port: ${{ secrets.PORT || 22 }}
           source: "deploy"
           target: "/home/portfolio-docker"
           strip_components: 1
           debug: true
 
-      - name: 🐳 SSH Build & Run Docker container on VPS
+      - name: "🐳 SSH: Install Docker & Run App"
         uses: appleboy/ssh-action@v1.0.0
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: 22
+          port: ${{ secrets.PORT || 22 }}
           script: |
+            # Install Docker (falls nicht vorhanden)
+            if ! command -v docker &> /dev/null; then
+              echo "🔧 Installing Docker..."
+              curl -fsSL https://get.docker.com | sh
+              sudo usermod -aG docker $USER
+            fi
+
+            # Optional: Install docker-compose (falls benötigt)
+            if ! command -v docker-compose &> /dev/null; then
+              echo "🔧 Installing Docker Compose..."
+              sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+              sudo chmod +x /usr/local/bin/docker-compose
+            fi
+
             cd /home/portfolio-docker
             docker compose down || true
             docker compose build --no-cache
