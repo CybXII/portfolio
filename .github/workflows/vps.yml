@@ -36,3 +36,5 @@ jobs:
           port: 22
           source: "./dist/portfolio/browser/*"
           target: "/home/portfolio"
+          concurrent-uploads: 2
+          debug: true
