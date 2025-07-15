@@ -15,7 +15,18 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - run: ssh-keygen -lf ~/.ssh/id_rsa
+
+      # 🔐 Setup SSH Key
+      - name: 🛡️ Setup SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+
+      # 🧪 Optional: Debug Key Fingerprint
+      - name: 🔍 SSH Key Fingerprint
+        run: ssh-keygen -lf ~/.ssh/id_rsa
+
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
@@ -36,5 +47,4 @@ jobs:
           port: 22
           source: "./dist/portfolio/browser/*"
           target: "/home/portfolio"
-          concurrent-uploads: 2
           debug: true
