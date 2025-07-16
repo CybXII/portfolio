@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    ports:
-      - "4200:80"
+    expose:
+      - "80"
     restart: always
     container_name: portfolio
