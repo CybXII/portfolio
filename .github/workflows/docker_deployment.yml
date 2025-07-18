@@ -12,9 +12,14 @@ jobs:
       - name: 📥 Checkout Repository
         uses: actions/checkout@v4
 
-      - name: 📦 Install dependencies and build Angular app
+      - name: 📦 Install dependencies
         run: |
-          npm install
+          npm ci
+
+      - name: 🧹 Clean up
+        run: npm run cleanup
+
+      - name: 🏗️ Build Angular App
           npm run build -- --configuration production
 
       - name: 🧱 Prepare deployment files (dist + config)
