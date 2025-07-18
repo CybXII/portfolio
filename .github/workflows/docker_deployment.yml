@@ -20,7 +20,7 @@ jobs:
         run: npm run cleanup
 
       - name: 🏗️ Build Angular App
-          npm run build -- --configuration production
+        run: npm run build -- --configuration production
 
       - name: 🧱 Prepare deployment files (dist + config)
         run: |
